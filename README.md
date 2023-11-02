@@ -10,13 +10,14 @@ Deploy the contract using remixIDE or hardhat, you can also create an account on
 # before you deploy the contract:
 **•** install metamask in your browser, connect it to ganache, you can use the network tab to do this manually. 
 
-**•** Import your first three accounts into metamask using their private keys
+**•** Import your first three accounts into metamask using their private keys, we need three accounts for the owner, the buyer and the delievery.
 
-**•** Modify the contract with one of the accounts from metamask make sure it's not the first one or whatever account you use to deploy the contract, this is where to make the edit:
+**•** Modify the contract with one of the accounts from metamask make sure it's not the first one or whatever account you use to deploy the contract, this is where to make the edit for the deliverys account:
 ```
 (bool successDelivery, ) = payable(address(0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB)).call{value: msg.value / 10}(""); // change the address here to match one of your addresses
 ```
 **•** Deploy the contract on the same provider you used on metamask.
+
 **•** add the contract address to public/logic.js.
 
 # Install
