@@ -1,0 +1,16 @@
+{
+  "name": "e-magazine",
+  "version": "1.0.0",
+  "description": "An Ethereum based magazine kiosk, it's basically like a vending machine but for magazines",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "web3": "^4.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

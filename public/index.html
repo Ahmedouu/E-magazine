@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <title>Magazine Shop Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Magazine Kiosk</h1>
+
+        <h2>Add a Magazine</h2>
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+        <label for="publisher">Publisher:</label>
+        <input type="text" id="publisher">
+        <label for="price">Price (in Ether):</label>
+        <input type="number" id="price">
+        <button id="addMagazine">Add Magazine</button>
+
+
+        <h2>Buy a Magazine</h2>
+        <label for="magazineId">Magazine ID:</label>
+        <input type="number" id="magazineId">
+        <button id="buyMagazine">Buy Magazine</button>
+
+        <h2>Check Magazine Availability</h2>
+        <label for="checkMagazineId">Magazine ID:</label>
+        <input type="number" id="checkMagazineId">
+        <button id="checkMagazineAvailability">Check Availability</button>
+
+        <h2>Magazine Details</h2>
+        <label for="detailsMagazineId">Magazine ID:</label>
+        <input type="number" id="detailsMagazineId">
+        <button id="getMagazineDetails">Get Details</button>
+        <div id="magazineDetails"></div>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="logic2.js"></script>
+    </div>
+</body>
+
+</html>

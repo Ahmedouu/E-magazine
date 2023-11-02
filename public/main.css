@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+
+.container { max-width: 800px; margin: 0 auto; padding: 20px; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+h1 { text-align: center; color: #333333; }
+
+h2 { margin-top: 40px; margin-bottom: 20px; color: #666666; }
+
+label { display: inline-block; width: 120px; }
+
+input { display: inline-block; width: 200px; padding: 5px; border: 1px solid #cccccc; }
+
+button { display: inline-block; margin-left: 120px; padding: 10px 20px; background-color: #0099ff; color: white; border: none; cursor: pointer; }
+
+button:hover { background-color: #0066cc; }
+
+#magazineDetails { margin-top: 20px; padding: 10px; border: 1px dashed #cccccc; }
+
