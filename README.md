@@ -7,9 +7,11 @@ The idea here is to have a smart contract that allows for customers to order a j
 # Usage 
 Deploy the contract using remixIDE or hardhat, you can also create an account on alchemy but then you will have to use a faucet to get some Ether and that will make this longer so for the sake of simplicty I will use ganache + remixIDE 
 
-before you deploy the contract:
-**•** install metamask in your browser, connect it to ganache, you can use the network tab to do this manually.
+# before you deploy the contract:
+**•** install metamask in your browser, connect it to ganache, you can use the network tab to do this manually. 
+
 **•** Import your first three accounts into metamask using their private keys
+
 **•** Modify the contract with one of the accounts from metamask make sure it's not the first one or whatever account you use to deploy the contract, this is where to make the edit:
 ```
 (bool successDelivery, ) = payable(address(0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB)).call{value: msg.value / 10}(""); // change the address here to match one of your addresses
