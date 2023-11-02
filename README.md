@@ -26,4 +26,4 @@ npm install
 npm start
 ```
 
-P.S: We are using metamask injection thus the need for the server, if you prefer to not use a server you can change just place the js logic inside the html file and then open the file and you would need to change the web3 version in the dependencies the version that worked for me was  "web3": "^1.10.0" , you would also need to manually change the accounts everytime by typing them.
+P.S: We are using metamask injection thus the need for the server, if you prefer to not use a server you can, just place the js logic inside the html file and then open the file and you would need to change the web3 version in the dependencies the version that worked for me was  "web3": "^1.10.0" , you would also need to manually change the accounts everytime by typing them.
